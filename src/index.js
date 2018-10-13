@@ -6,7 +6,6 @@ import BookList from "./container/BookList";
 import AddBook from "./container/AddBook";
 import BookStore from "./reducers/BookStore";
 
-
 ReactDOM.render(
   <Provider store={createStore(BookStore)}>
     <div>
